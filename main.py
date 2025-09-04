@@ -27,25 +27,35 @@
 
 # Function:
 
-def calc_gmean(a,b):
+# def calc_gmean(a,b):
 
-    mean = (a*b)/(a+b)
-    print(mean)
+#     mean = (a*b)/(a+b)
+#     print(mean)
 
-def isGreater(a,b):
-    if(a>b):
-        print(a,"is greater than",b)
-    else:
-        print(b,"is greatern than", a)
+# def isGreater(a,b):
+#     if(a>b):
+#         print(a,"is greater than",b)
+#     else:
+#         print(b,"is greatern than", a)
 
-a = 5
-b=10
-calc_gmean(a,b)
-isGreater(a,b)
+# a = 5
+# b=10
+# calc_gmean(a,b)
+# isGreater(a,b)
 
-c=5
-d=6
-calc_gmean(c,d)
-isGreater(c,d)
+# c=5
+# d=6
+# calc_gmean(c,d)
+# isGreater(c,d)
     
    
+
+print("Hello World!")
+i=int(input("Enter a first number: "))
+k=int(input("Enter a second number: "))
+a=i
+b=k
+if(a<b):
+    print(a," is less than ",b)
+else:
+    print(a,"is greater than", b)
